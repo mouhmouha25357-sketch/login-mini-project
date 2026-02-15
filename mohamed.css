@@ -1,0 +1,82 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+.login-form {
+    background-color: white;
+    text-align: center;
+    margin-bottom: 150px;
+    width: 300px;
+    margin: 50px auto;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.login-foot {
+    text-align: center;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+.login-foot a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.login-foot a:hover {
+    background-color: #333;
+}
+.login-form h1 {
+    margin-bottom: 20px;
+}
+.input-information {
+    margin-bottom: 15px;
+    text-align: left;
+}
+.input-information label {
+    display: block;
+    margin-bottom: 5px;
+}
+.input-information input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+.button-login {
+    margin-top: 20px;
+}
+.button-login button {
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.login-foot {
+    text-align: center;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+.links a {
+    text-decoration: none;
+    color: blueviolet;
+}
+.links a:hover {
+    color: blueviolet;
+}
+.button-login button:hover{
+        background: rgb(0,0,0,0.8);
+        cursor:pointer;
+        padding: 10px 15px;
+}
